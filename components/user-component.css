@@ -1,0 +1,17 @@
+.user_component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px ;
+    color: white;
+}
+.user_component>div{
+    width: 30%;
+}
+.user_component>div:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+}
+.user_component>div:nth-child(2){
+    text-align: center;
+}

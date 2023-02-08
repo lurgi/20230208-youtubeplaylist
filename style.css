@@ -1,0 +1,97 @@
+@import "components/user-component.css";
+
+*{
+    margin:0;
+    padding : 0;
+    box-sizing: border-box;
+  }
+body{
+  background-color: #21213f;
+}
+.main_img{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+.main_img__img{
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.your_likes_head{
+  margin: 0 50px;
+  text-align: center;
+}
+.your_likes_head .your_likes{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.your_likes_head .your_likes_info{
+  color: rgb(169, 169, 169);
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 175px 30px;
+  align-items: center;
+  
+}
+.buttons button{
+  border : none;
+  border-radius: 50%;
+}
+.buttons button:nth-child(odd){
+  background-color: rgb(27, 27, 27);
+  width: 55px;
+  height: 55px;
+}
+.buttons button:nth-child(odd) i{
+  color: whitesmoke;
+}
+.buttons button:nth-child(2){
+  background-color: white;
+  color: rgb(24, 24, 24);
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+.buttons button:nth-child(2) i{
+  position: absolute;
+  left: 36%;
+  top : 32%;
+}
+
+.musics .music{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin : 0 30px 20px;
+  color: white;
+}
+.musics .music img{
+  width: 70px;
+  height: 70px;
+  border-radius: 8%;
+}
+.musics .music>div{
+  width: 78%;
+}
+.musics .music>div>div{
+  margin-top: 3px;
+  position: relative;
+}
+.musics .music>div>div>span{
+  color: rgb(211, 211, 211);
+}
+.musics .music>div>div>span:nth-child(2){
+  position: absolute;
+  left: 30px;
+}
+.musics .music>div>div>span:nth-child(2) i{
+  margin: 0 7px;
+}
